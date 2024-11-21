@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body
+    class="bg-very-dark-blue-main-background flex items-center justify-center h-screen px-5 py-6 lg:px-0"
+  >
+    <div
+      class="flex flex-col-reverse bg-dark-desaturated-blue-card-background lg:w-[800px] rounded-[5px] lg:flex-row w-[300px] lg:scale-[1.2]"
+    >
+      <!-- Card Content -->
+      <div
+        class="lg:w-1/2 lg:flex lg:flex-col lg:justify-center lg:pr-24 lg:text-left lg:ml-6 text-center p-7"
+      >
+        <h2
+          class="text-white-main-heading-stats font-bold text-[26px] mb-5 font-inter"
+        >
+          Get <span class="text-soft-violet-accent-color">insights</span> that
+          help your business grow.
+        </h2>
+        <p
+          class="text-slightly-transparent-white-main-paragraph lg:text-[11px] lg:mb-14 mb-5 text-[14px] font-inter"
+        >
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="lg:flex lg:flex-row lg:gap-11 flex flex-col gap-4">
+          <div>
+            <h2
+              class="text-white-main-heading-stats font-bold text-xl font-inter"
+            >
+              10k+
+            </h2>
+            <p
+              class="text-slightly-transparent-white-main-paragraph uppercase text-[10px] tracking-wide font-lexend"
+            >
+              companies
+            </p>
+          </div>
+          <div>
+            <h2
+              class="text-white-main-heading-stats font-bold text-xl font-inter"
+            >
+              314
+            </h2>
+            <p
+              class="text-slightly-transparent-white-main-paragraph uppercase text-[10px] tracking-wide font-lexend"
+            >
+              templates
+            </p>
+          </div>
+          <div>
+            <h2
+              class="text-white-main-heading-stats font-bold text-xl uppercase font-inter"
+            >
+              12m+
+            </h2>
+            <p
+              class="text-slightly-transparent-white-main-paragraph uppercase text-[10px] tracking-wide font-lexend"
+            >
+              queries
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card Image -->
+      <div class="lg:w-1/2 h-[200px] lg:h-full relative">
+        <img
+          src="images/image-header-desktop.jpg"
+          alt=""
+          class="w-full h-full rounded-tl-[5px] rounded-tr-[5px] lg:rounded-tl-none lg:rounded-e-[5px]"
+        />
+        <div
+          class="bg-soft-violet-accent-background w-full h-full absolute top-0 rounded-tl-[5px] rounded-tr-[5px] lg:rounded-tl-none lg:rounded-e-[5px]"
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>
